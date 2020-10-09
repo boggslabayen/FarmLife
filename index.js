@@ -24,7 +24,7 @@ for (var i =0; i < animalLength; i++) {
 	switch (key) {
 
 		case "🐶":
-		var dog = new Audio ("sounds/dog.wav");
+		var dog = new Audio ('sounds/dog.wav');
 		dog.play();
 		break;
 
@@ -69,8 +69,7 @@ for (var i =0; i < animalLength; i++) {
 		break;
 
 		default:
-		var horn = new Audio ("sounds/bike.wav");
-		horn.play();
+		ß
 
 	}
 
