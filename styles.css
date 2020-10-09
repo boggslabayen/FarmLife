@@ -1,0 +1,105 @@
+body {
+	margin: 0% 15%;
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+h1,p {
+	text-align: center;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Secular One', sans-serif;
+	font-size: 3rem;
+	
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+}
+
+.animals {
+
+background: rgb(63,94,251);
+background: -moz-linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+
+
+border-radius:10px;
+border-style: none;
+box-shadow: 3px 3px 10px 0px #c5c5c5;;
+
+
+font-size: 5rem;
+}
+
+.pets {
+margin-top: 10%; 
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+}
+
+.pressed{
+
+background: rgb(34,193,195);
+background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+
+border-radius:10px;
+border-style: none;
+box-shadow: 3px 3px 10px 0px #c5c5c5;;
+
+
+font-size: 5rem;
+
+}
+
+@media (max-width: 414px) {
+
+	h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 1.3rem;
+	margin: 10% 10% 0%;
+	}
+
+	p {
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	margin: 0% 10%;
+	}
+
+	.animals {
+
+	background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+	border-radius:10px;
+	border-style: none;
+	box-shadow: 3px 3px 10px 0px #c5c5c5;;
+
+
+	font-size: 3rem;
+	}
+
+	.pets {
+	margin: 10% 5%; 
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+	grid-gap: 5px;
+	}
+
+	body {
+	margin: 0% 1%;
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+	}
+
+
+	
+}
+
