@@ -11,6 +11,7 @@ for (var i =0; i < animalLength; i++) {
 
 
 	makeSound(buttonText);
+	clickState(buttonText);
 	
 
 	} );
@@ -29,42 +30,42 @@ for (var i =0; i < animalLength; i++) {
 		break;
 
 		case "🐱":
-		var cat = new Audio ("sounds/cat.wav");
+		var cat = new Audio ('sounds/cat.wav');
 		cat.play();
 		break;
 
 		case "🐔":
-		var chicken = new Audio ("sounds/chicken.wav");
+		var chicken = new Audio ('sounds/chicken.wav');
 		chicken.play();
 		break;
 
 		case "🐵":
-		var monkey = new Audio ("sounds/monkey.wav");
+		var monkey = new Audio ('sounds/monkey.wav');
 		monkey.play();
 		break;
 
 		case "🦁":
-		var lion = new Audio ("sounds/lion.wav");
+		var lion = new Audio ('sounds/lion.wav');
 		lion.play();
 		break;
 
 		case "🐘":
-		var elephant = new Audio ("sounds/elephant.wav");
+		var elephant = new Audio ('sounds/elephant.wav');
 		elephant.play();
 		break;
 
 		case "🐮":
-		var cow = new Audio ("sounds/cow.wav");
+		var cow = new Audio ('sounds/cow.wav');
 		cow.play();
 		break;
 
 		case "🐐":
-		var goat = new Audio ("sounds/goat.wav");
+		var goat = new Audio ('sounds/goat.wav');
 		goat.play();
 		break;
 
 		case "🐥":
-		var bird = new Audio ("sounds/bird.wav");
+		var bird = new Audio ('sounds/bird.wav');
 		bird.play();
 		break;
 
