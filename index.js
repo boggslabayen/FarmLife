@@ -20,52 +20,53 @@ for (var i =0; i < animalLength; i++) {
 }
 
 
+
 	function makeSound(key) {
 
 	switch (key) {
 
 		case "🐶":
-		var dog = new Audio ('sounds/dog.wav');
+		var dog = new Audio('sounds/cow.mp3');
 		dog.play();
 		break;
 
 		case "🐱":
-		var cat = new Audio ('sounds/cat.wav');
+		var cat = new Audio('sounds/cow.mp3');
 		cat.play();
 		break;
 
 		case "🐔":
-		var chicken = new Audio ('sounds/chicken.wav');
+		var chicken = new Audio('sounds/cow.mp3');
 		chicken.play();
 		break;
 
 		case "🐵":
-		var monkey = new Audio ('sounds/monkey.wav');
+		var monkey = new Audio('sounds/cow.mp3');
 		monkey.play();
 		break;
 
 		case "🦁":
-		var lion = new Audio ('sounds/lion.wav');
+		var lion = new Audio('sounds/frog.mp3');
 		lion.play();
 		break;
 
 		case "🐘":
-		var elephant = new Audio ('sounds/elephant.wav');
+		var elephant = new Audio('sounds/frog.mp3');
 		elephant.play();
 		break;
 
 		case "🐮":
-		var cow = new Audio ('sounds/cow.wav');
+		var cow = new Audio('sounds/frog.mp3');
 		cow.play();
 		break;
 
 		case "🐐":
-		var goat = new Audio ('sounds/goat.wav');
+		var goat = new Audio('sounds/frog.mp3');
 		goat.play();
 		break;
 
 		case "🐥":
-		var bird = new Audio ('sounds/bird.wav');
+		var bird = new Audio('sounds/frog.mp3');
 		bird.play();
 		break;
 
