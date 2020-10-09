@@ -70,7 +70,7 @@ for (var i =0; i < animalLength; i++) {
 		break;
 
 		default:
-		ß
+		console.log("No Music Found");
 
 	}
 
